@@ -1,0 +1,3 @@
+export const DEPLOY_MAIN_FACTORY: string = "DEPLOY_MAIN_FACTORY";
+export const STORE_DEPLOYMENT: string = "STORE_DEPLOYMENT";
+export const CREATE_MAIN_CONTRACT: string = "CREATE_MAIN_CONTRACT";
