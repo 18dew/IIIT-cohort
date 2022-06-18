@@ -1,0 +1,22 @@
+{
+    "methods": {
+        "map3(uint256)": {
+            "stateMutability": "view",
+            "code": "function map3(uint256) external view returns (uint256 val1)",
+            "inputs": {
+                "_0": {
+                    "type": "uint256"
+                }
+            },
+            "outputs": {
+                "val1": {
+                    "type": "uint256"
+                }
+            }
+        }
+    },
+    "events": {},
+    "errors": {},
+    "path": "/core",
+    "name": "BaseContract"
+}

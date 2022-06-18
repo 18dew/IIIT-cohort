@@ -9,7 +9,9 @@ contract MainFactory{
 
     mapping ( uint256 => address ) public MainAddr;
 
+
     function createMain ( ) external {
+        require( ctr != 1 ,"MainFactory : CTR 1 not allowed");
         ctr = ctr + 1;
         MainContract M1 = new MainContract( );
         MainAddr[ctr] = address(M1);

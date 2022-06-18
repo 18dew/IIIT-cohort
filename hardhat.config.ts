@@ -7,6 +7,7 @@ import "@typechain/hardhat";
 import "hardhat-gas-reporter";
 import "solidity-coverage";
 import "hardhat-docgen";
+import '@primitivefi/hardhat-dodoc';
 
 
 // TASKS
@@ -57,6 +58,11 @@ const config: HardhatUserConfig = {
   },
   etherscan: {
     apiKey: process.env.ETHERSCAN_API_KEY,
+  },
+  dodoc: {
+    runOnCompile: true,
+    debugMode: true,
+    // More options...
   },
 };
 

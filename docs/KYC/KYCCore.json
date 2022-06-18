@@ -1,0 +1,101 @@
+{
+    "methods": {
+        "Rate()": {
+            "stateMutability": "view",
+            "code": "function Rate() external view returns (uint256)",
+            "inputs": {},
+            "outputs": {
+                "_0": {
+                    "type": "uint256"
+                }
+            }
+        },
+        "SetIDRegistry(address)": {
+            "stateMutability": "nonpayable",
+            "code": "function SetIDRegistry(address _orgR) external nonpayable",
+            "inputs": {
+                "_orgR": {
+                    "type": "address"
+                }
+            },
+            "outputs": {}
+        },
+        "SetOrgRegistry(address)": {
+            "stateMutability": "nonpayable",
+            "code": "function SetOrgRegistry(address _orgR) external nonpayable",
+            "inputs": {
+                "_orgR": {
+                    "type": "address"
+                }
+            },
+            "outputs": {}
+        },
+        "SetRate(uint256)": {
+            "stateMutability": "nonpayable",
+            "code": "function SetRate(uint256 _rate) external nonpayable",
+            "inputs": {
+                "_rate": {
+                    "type": "uint256"
+                }
+            },
+            "outputs": {}
+        },
+        "SetToken(address)": {
+            "stateMutability": "nonpayable",
+            "code": "function SetToken(address _token) external nonpayable",
+            "inputs": {
+                "_token": {
+                    "type": "address"
+                }
+            },
+            "outputs": {}
+        },
+        "addRecord(bytes32,uint8)": {
+            "stateMutability": "nonpayable",
+            "code": "function addRecord(bytes32 _hash, uint8 _type) external nonpayable",
+            "inputs": {
+                "_hash": {
+                    "type": "bytes32"
+                },
+                "_type": {
+                    "type": "uint8"
+                }
+            },
+            "outputs": {}
+        },
+        "purchaseRecord(bytes32,uint8)": {
+            "stateMutability": "nonpayable",
+            "code": "function purchaseRecord(bytes32 _hash, uint8 _type) external nonpayable",
+            "inputs": {
+                "_hash": {
+                    "type": "bytes32"
+                },
+                "_type": {
+                    "type": "uint8"
+                }
+            },
+            "outputs": {}
+        },
+        "viewRecord(bytes32,uint8)": {
+            "stateMutability": "view",
+            "code": "function viewRecord(bytes32 _hash, uint8 _type) external view returns (struct IDRegistry.userStruct)",
+            "inputs": {
+                "_hash": {
+                    "type": "bytes32"
+                },
+                "_type": {
+                    "type": "uint8"
+                }
+            },
+            "outputs": {
+                "_0": {
+                    "type": "IDRegistry.userStruct"
+                }
+            }
+        }
+    },
+    "events": {},
+    "errors": {},
+    "path": "/KYC",
+    "name": "KYCCore"
+}
