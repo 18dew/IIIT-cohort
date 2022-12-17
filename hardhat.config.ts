@@ -14,6 +14,11 @@ import '@primitivefi/hardhat-dodoc';
 import "./task/storeDeployment"
 import "./task/deployMain"
 import "./task/createMain"
+import "./task/deployKYCToken"
+import "./task/deployKYCGov"
+// import "./task/deployKYCCore"
+// import "./task/deployKYCIDReg"
+// import "./task/deployKYCORGReg"
 
 // TASKS
 
@@ -59,11 +64,11 @@ const config: HardhatUserConfig = {
   etherscan: {
     apiKey: process.env.ETHERSCAN_API_KEY,
   },
-  dodoc: {
-    runOnCompile: true,
-    debugMode: true,
-    // More options...
-  },
+  // dodoc: {
+  //   runOnCompile: true,
+  //   debugMode: true,
+  //   // More options...
+  // },
 };
 
 export default config;

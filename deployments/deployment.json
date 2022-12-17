@@ -1,10 +1,12 @@
 {
   "31337": {
     "MainFactory": "0x5FbDB2315678afecb367f032d93F642f64180aa3",
-    "TEst123": "0x123123"
+    "TEst123": "0x123123",
+    "KYCToken": "0x5FbDB2315678afecb367f032d93F642f64180aa3"
   },
   "80001": {
     "MainFactory": "0xEeB5847A10bbf7C2BE93Df407eDa5E42304C2e6a",
-    "MainContract": "0x30b5430fD67d23e97FE59D386B22eC1a3113a8e8"
+    "MainContract": "0x30b5430fD67d23e97FE59D386B22eC1a3113a8e8",
+    "KYCGov": "0x8194dD6E329069B4778cC83137e7BB4f8697665f"
   }
 }

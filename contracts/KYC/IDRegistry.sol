@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
 contract IDRegistry {
@@ -8,6 +9,7 @@ contract IDRegistry {
 
     mapping ( bytes32 => mapping ( uint8 => userStruct ) ) private userData; // Hash of ID no -> id type( Aaddhar / passort / pancard etc ) ->
 
+    // (HASH - TDType) - USERStruct
     struct userStruct {
         address _verifier;
         uint256 _time;
